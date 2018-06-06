@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./dist/css/main.css" />
+</head>
+<body>
+    <div id="map"></div>
+
+    <!-- Seleziona le tiles della mappa -->
+    <select name="tile-layer" id="tpSelect">
+        <option value="">-- select --</option>
+        <option value="OpenStreetMap.Mapnik">OpenStreetMap.Mapnik</option>
+        <option value="CartoDB.Positron">CartoDB.Positron</option>
+    </select>
+
+    <p></p>
+    <input type="text" value="" id="lat">
+    <input type="text" value="" id="lng">
+    <input type="text" value="" id="zoom">
+    <button id="setInputs" type="button">Set</button>
+
+
+    <script src="./dist/js/bundle.js"></script>
+</body>
+</html>
